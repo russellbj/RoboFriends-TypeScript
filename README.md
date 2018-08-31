@@ -1,4 +1,4 @@
-# robofriends-ts
+# RoboFriends - TypeScript
 
 Adding TypeScript to Robofriends project.
 
