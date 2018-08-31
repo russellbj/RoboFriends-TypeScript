@@ -1,7 +1,12 @@
 import * as React from 'react';
 import Card from './Card';
+import {IRobot} from '../containers/App.js';
 
-const CardList = ({ robots }) => {
+interface ICardListProps {
+  robots: Array<IRobot>
+}
+
+let CardList: React.SFC<ICardListProps> = ({ robots }) => {
   return (
     <div>
       {
